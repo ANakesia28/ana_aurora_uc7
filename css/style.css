@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e1aeff;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.logo{
+    font-size: 50px;
+    color: rgb(140, 0, 255);
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo{
+    padding: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.imagem-principal{
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 30px auto;
+}
+
+.destaque{
+    color: #c800ff;
+}
+
+.cards{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card{
+    width: 100px;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid #d58be8;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.card p{
+    font-size: 15px;
+}
+
+
+body{
+    background-color: #c395ff;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #c8a2ff, #a06af7);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #6f00ff;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #7a1fff;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.card{
+    width: 500px;
+    min-height: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    color: #7b1cf7;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.icone{
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 15px;
+}
