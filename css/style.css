@@ -1,58 +1,14 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #e1aeff;
-    margin: 0;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 20px;
-}
-
-.logo{
-    font-size: 50px;
-    color: rgb(140, 0, 255);
-}
-
-.menu{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
-}
-
-.conteudo{
-    padding: 60px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-
-.imagem-principal{
-    width: 250px;
-    height: 200px;
-    display: block;
-    margin: 30px auto;
-}
-
-.destaque{
-    color: #c800ff;
-}
-
 .cards{
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     margin-top: 15px;
 }
 
 .card{
-    width: 100px;
-    display: inline-block;
-    margin: 15px;
+    width: 300px;
+    height: 180px;
     padding: 20px;
     border: 2px solid #d58be8;
     border-radius: 25px;
@@ -60,6 +16,12 @@ nav a{
     color: black;
 }
 
+.imagem-principal{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
 .card p{
     font-size: 15px;
 }
@@ -97,8 +59,9 @@ h2{
 .cards{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 25px;
+    align-items: left ;
+    gap: 40px;
+    width: 500%;
 }
 
 .card{
@@ -119,3 +82,5 @@ h2{
     color: #000000;
     margin-bottom: 15px;
 }
+
+
