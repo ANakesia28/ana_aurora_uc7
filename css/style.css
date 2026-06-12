@@ -24,6 +24,7 @@
 }
 .card p{
     font-size: 15px;
+    font-display:center;
 }
 
 
@@ -32,12 +33,6 @@ body{
     font-family: Arial, sans-serif;
 }
 
-body{
-    background: linear-gradient(135deg, #c8a2ff, #a06af7);
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 20px;
-}
 
 h1{
     font-family: 'Playfair Display', serif;
@@ -46,6 +41,14 @@ h1{
     text-align: center;
     letter-spacing: 3px;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+}
+
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0%;
+    text-align: center;
+    color: #a06af7; 
 }
 
 h2{
@@ -83,4 +86,24 @@ h2{
     margin-bottom: 15px;
 }
 
+
+.chat-img {
+    width: 250px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+.opcao {
+    width: 500px; 
+    height: 70px; 
+    font-size: 28px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
